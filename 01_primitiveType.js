@@ -18,21 +18,21 @@ console.log(speckNumber);
 
 // 2. Boolean --> true or false
 var isMarried = true;
-var knowAngular = true; 
+var knowAngular = true;
 var isSoftwareEngineer = true;
-var isBachelor = false; 
+var isBachelor = false;
 console.log(isBachelor);
 var typeOfIsMarried = typeof isMarried;
 console.log("Type of isMarried:", typeOfIsMarried);
 
 // 3. String --> Sequence of character enclosed in '' or ""
 var firstName = "Bill";
-var position = 'Microsoft Co-founder'; 
+var position = 'Microsoft Co-founder';
 var typeOfFirstName = typeof firstName;
 var city = '';
-console.log( "Type of city ->", typeof city);
-console.log( "Type of variable -> firstName: ", typeOfFirstName );
-console.log("Type of variable --> position: " , typeof position);
+console.log("Type of city ->", typeof city);
+console.log("Type of variable -> firstName: ", typeOfFirstName);
+console.log("Type of variable --> position: ", typeof position);
 
 //2. Special Data type
 // 1. Undefined
