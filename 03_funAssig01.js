@@ -1,8 +1,8 @@
-console.log('---------------Function display-------------');
+console.log('/--------------------Function display--------------------/');
 console.log("First function with no argument and no return type");
 console.log("Second function with no argument and no return type");
 console.log("\n");
-console.log('---------------personalDetails-------------');
+console.log('/-------------------personalDetails--------------------/');
 
 function personalDetails(firstName, lastName, collegeName) {
     console.log("My personal details is :");
