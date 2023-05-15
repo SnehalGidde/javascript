@@ -18,6 +18,9 @@ function string() {
     var res = str.length;
     var result = str.split(" ");
     var totalWords = result.length;
+
+    console.log(`Given string:  I am Angular Developer `);
+
     console.log(`Length of the word in given string: ${totalWords}`);
 
     console.log(`Total character in the string : ${res}`);
