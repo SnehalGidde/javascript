@@ -1,0 +1,31 @@
+function squareOfWordLength(number, str) {
+
+    var length;
+    var result = str.length;
+
+    console.log(`1.3.${number}) Square of word :${str}  : ${result * result} `);
+}
+squareOfWordLength(1, "javaScript");
+squareOfWordLength(2, "Google Chrome");
+squareOfWordLength(3, "Developer Smart");
+
+console.log(`/-----------------------------------------------------------/`);
+
+function string() {
+
+    var str = "I am Angular Developer";
+    var lengthstr;
+    var res = str.length;
+    var result = str.split(" ");
+    var totalWords = result.length;
+    console.log(`Length of the word in given string: ${totalWords}`);
+
+    console.log(`Total character in the string : ${res}`);
+
+
+    console.log(` 2.1)Total character divided by total word in string : ${res / totalWords}`);
+
+    console.log(` 2.2)Total character multiply by total word in string : ${res * totalWords}`);
+}
+string();
+
