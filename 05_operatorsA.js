@@ -2,8 +2,8 @@ function squareOfWordLength(number, str) {
 
     var length;
     var result = str.length;
-
-    console.log(`1.3.${number}) Square of word :${str}  : ${result * result} `);
+    console.log( `${number}: Length of given string is ${str}:  ${result}`);
+    console.log(`. Square of number of characters is : ${result * result} `);
 }
 squareOfWordLength(1, "javaScript");
 squareOfWordLength(2, "Google Chrome");
