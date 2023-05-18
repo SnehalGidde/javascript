@@ -7,10 +7,10 @@
     console.log(`${count}: Your Age:  ${age} ==> This is invalid data`);
    }
    else if( age<18){
-    console.log(`${count}: Your Age:  ${age} ==> you are not eligible for voting`);
+    console.log(`${count}: Your Age:  ${age} ==> You are not eligible for voting`);
    }
    else{
-    console.log(`${count}: Your Age:  ${age} ==> you are eligible for voting`);
+    console.log(`${count}: Your Age:  ${age} ==> You are eligible for voting`);
    }
    count++;
    console.log(`----------------------------------------------`);
