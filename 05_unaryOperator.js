@@ -18,7 +18,7 @@ var num4 = 20;
 var num4 = num4--;// num4 - 1 = 
 console.log(` post Increment operator:  ${num4}`);
 
-console.log(`Decrement operator - post fix`);
+console.log(`Decrement operator - pre fix`);
 var num5 = 30;
 var num5 = --num5;// num4 - 1 = 
 console.log(` post Increment operator:  ${num5}`);
