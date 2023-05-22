@@ -1,13 +1,6 @@
 
-// dayNumber
-// 1  - Monday
-// 2  - Tuesdays
-// 3  - Wed
-// 4 - Thursday
-// 5 - Friday
-// 6 - Saturday
-// 7 - Sunday
 
+console.log(`======================Month Number Switch Case=================`);
 function monthOfYear(monthNumber) {
     switch (monthNumber) {
         case 1:
@@ -46,7 +39,7 @@ function monthOfYear(monthNumber) {
         case 12:
             console.log(`December as month number is:  ${monthNumber}`);
             break;
-        
+
         default:
             console.log(`Invalid input ==>  ${monthNumber}`);
             break;

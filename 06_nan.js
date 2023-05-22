@@ -5,7 +5,7 @@ console.log(`${num1}, type of NaN is ${typeof num1}`);
 
 console.log(`${0/0}`);
 
-var numTwo = "200";                impliit conversion
+var numTwo = "200";                //impliit conversion
 numTwo = numTwo++; // 200 + 1
 console.log(`${numTwo}`);
 
@@ -13,7 +13,7 @@ var num3 = "Ten";// "10" ==> 10
 num3 = --num3; 
 console.log(`${num3}`);
 
-var city = "Pune";     explicit conversion
+var city = "Pune";    // explicit conversion
 var result = +city;
 console.log(`${result}`);
 
