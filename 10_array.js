@@ -108,7 +108,9 @@ for (const element of arrayNames) {
 }
 
 
-console.log(`------- WAP to get even indexed element ------`);
+// Question  Traverse the program in loop
+
+console.log(`------- WAP to get even indexed element ------`);   
 var arrayNames = ["Anil", "Siya", "Ram" ,"Sunil", "Jenny"];
 // WAP to get even indexed element
 for (const index in arrayNames) {

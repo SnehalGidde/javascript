@@ -90,9 +90,9 @@ console.log(` 11] Is Number 23 Available in Given Array : `,arrayNumbers2);
 console.log(`--------------------------------------------------------------`);
 
 const arrayNumbers3 = arrayNumbers.splice(3, 0, 55, 66);
-console.log(`12] Insert Number 55 & 66 Before index 3 : ${arrayNumbers}`);
+console.log("12] Insert Number 55 & 66 Before index 3 : ", arrayNumbers);
 
 console.log(`--------------------------------------------------------------`);
 
 const arrayNumbers4 = arrayNumbers.splice(4,3);
-console.log(`13] Delete 3 Element Starting from index 4: ${arrayNumbers}`);
+console.log("13] Delete 3 Element Starting from index 4: ",arrayNumbers);
