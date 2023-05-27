@@ -1,7 +1,7 @@
 
 
 var arrayFruit = ["Banana", "Orange", "Apple", "Mango", "Water Melon"];
-console.log(`Given Array Element :  ${arrayFruit}`);
+console.log("Given Array Element :",  arrayFruit);
 
 const zerothIndexElement = arrayFruit[0];
 console.log(` 1. first element in Array :  ${zerothIndexElement}`);
