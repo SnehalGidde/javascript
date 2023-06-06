@@ -9,7 +9,7 @@ for (const element of arrayNum) {
 }
 console.log("After removing dupliates from Array ", setArrayNum.values());
 
-
+console.log(`==================================================================`);
 const string = "How are you mate";
 console.log(` Given string : ${string}`);
 let st = "";
