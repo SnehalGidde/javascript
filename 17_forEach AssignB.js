@@ -18,12 +18,12 @@ const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 
 const array_employees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
 
-// WAP to find the employees from Finance department
+
 console.log(`Find out the 'TCS' Employee Details `);
 array_employees.forEach((employee) => {
     if (employee.emp_company == "TCS") {
 
-        console.log(`Compant Name = ${employee.emp_company} :  Employee Name = ${employee.emp_name}`);
+        console.log(`Company Name = ${employee.emp_company} :  Employee Name = ${employee.emp_name}`);
     }
 });
 
