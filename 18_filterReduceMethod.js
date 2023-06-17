@@ -27,7 +27,8 @@ const arrayWiproEmployeesNames = arrayWiproEmployees.map((employee) => {
 });
 console.log(arrayWiproEmployeesNames);
 
-console.log(`------------------------------------------------------`);
+console.log(`------------------------------------------
+------------`);
 
 console.log(`2) Find all Employee from IT OR HR department `);
 const arrayITOrHREmployees = array_employees.filter((employee) => {
